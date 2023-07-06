@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contabilidade  - Empresa de Contabilidade</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <!-- css -->
+  <link href="https://fonts.googleapis.com/css?family=Noto+Serif:400,400italic,700|Open+Sans:300,400,600,700" rel="stylesheet">
+  <link href="css/bootstrap.css" rel="stylesheet" />
+  <link href="css/bootstrap-responsive.css" rel="stylesheet" />
+  <link href="css/fancybox/jquery.fancybox.css" rel="stylesheet">
+  <link href="css/jcarousel.css" rel="stylesheet" />
+  <link href="css/flexslider.css" rel="stylesheet" />
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- Theme skin -->
+  <link href="skins/default.css" rel="stylesheet" />
+  <!-- Fav and touch icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png" />
+  <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png" />
+  <link rel="shortcut icon" href="ico/favicon.png" />
+
+  <!-- =======================================================
+    Theme Name: Flattern
+    Theme URL: https://bootstrapmade.com/flattern-multipurpose-bootstrap-template/
+    Author: BootstrapMade.com
+    Author URL: https://bootstrapmade.com
+  ======================================================= -->
+</head>
+
+<body>
+  <div id="wrapper">
+    <!-- toggle top area -->
+    <div class="hidden-top">
+      <div class="hidden-top-inner container">
+        <div class="row">
+          <div class="span12">
+            <ul>
+              <li><strong>Estamos disponíveis para qualquer trabalho personalizado </strong></li>
+              <li>Escritório principal: Empresarial center 264, Maurício de Nassaul</li>
+              <li>Nosso CONTATO <i class="icon-phone"></i> (81) 4256-7890 - (81) 5590-7891</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end toggle top area -->
+    <!-- start header -->
+    <header>
+      <div class="container ">
+        <!-- hidden top area toggle link -->
+        <div id="header-hidden-link">
+          <a href="#" class="toggle-link" title="Click me you'll get a surprise" data-target=".hidden-top"><i></i>Open</a>
+        </div>
+        <!-- end toggle link -->
+        <div class="row nomargin">
+          <div class="span12">
+            <div class="headnav">
+              <ul>
+                <li><a href="#mySignup" data-toggle="modal"><i class="icon-user"></i>Cadastrar</a></li>
+                <li><a href="#mySignin" data-toggle="modal"><i class="icon-user"></i>Logar</a></li>
+              </ul>
+            </div>
+            <!-- Signup Modal -->
+            <div id="mySignup" class="modal styled hide fade" tabindex="-1" role="dialog" aria-labelledby="mySignupModalLabel" aria-hidden="true">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 id="mySignupModalLabel">Crie uma <strong>conta</strong></h4>
+              </div>
+              <div class="modal-body">
+                <form class="form-horizontal">
+                  <div class="control-group">
+                    <label class="control-label" for="inputEmail">Email</label>
+                    <div class="controls">
+                      <input type="text" id="inputEmail" placeholder="Email">
+                    </div>
+                  </div>
+                  <div class="control-group">
+                    <label class="control-label" for="inputSignupPassword">Snha</label>
+                    <div class="controls">
+                      <input type="password" id="inputSignupPassword" placeholder="Password">
+                    </div>
+                  </div>
+                  <div class="control-group">
+                    <label class="control-label" for="inputSignupPassword2">Confirma a senha</label>
+                    <div class="controls">
+                      <input type="password" id="inputSignupPassword2" placeholder="Password">
+                    </div>
+                  </div>
+                  <div class="control-group">
+                    <div class="controls">
+                      <button type="submit" class="btn">Inscrever-se</button>
+                    </div>
+                    <p class="aligncenter margintop20">
+                      Já tem uma conta? <a href="#mySignin" data-dismiss="modal" aria-hidden="true" data-toggle="modal">Sign in</a>
+                    </p>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <!-- end signup modal -->
+            <!-- Sign in Modal -->
+            <div id="mySignin" class="modal styled hide fade" tabindex="-1" role="dialog" aria-labelledby="mySigninModalLabel" aria-hidden="true">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 id="mySigninModalLabel">Faça login na sua <strong>conta</strong></h4>
+              </div>
+              <div class="modal-body">
+                <form class="form-horizontal">
+                  <div class="control-group">
+                    <label class="control-label" for="inputText">Nome</label>
+                    <div class="controls">
+                      <input type="text" id="inputText" placeholder="Username">
+                    </div>
+                  </div>
+                  <div class="control-group">
+                    <label class="control-label" for="inputSigninPassword">senha</label>
+                    <div class="controls">
+                      <input type="password" id="inputSigninPassword" placeholder="Password">
+                    </div>
+                  </div>
+                  <div class="control-group">
+                    <div class="controls">
+                      <button type="submit" class="btn">Entrar</button>
+                    </div>
+                    <p class="aligncenter margintop20">
+                      Esqueci a senha? <a href="#myReset" data-dismiss="modal" aria-hidden="true" data-toggle="modal">Reset</a>
+                    </p>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <!-- end signin modal -->
+            <!-- Reset Modal -->
+            <div id="myReset" class="modal styled hide fade" tabindex="-1" role="dialog" aria-labelledby="myResetModalLabel" aria-hidden="true">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 id="myResetModalLabel">Redefina a sua.<strong>senha</strong></h4>
+              </div>
+              <div class="modal-body">
+                <form class="form-horizontal">
+                  <div class="control-group">
+                    <label class="control-label" for="inputResetEmail">Email</label>
+                    <div class="controls">
+                      <input type="text" id="inputResetEmail" placeholder="Email">
+                    </div>
+                  </div>
+                  <div class="control-group">
+                    <div class="controls">
+                      <button type="submit" class="btn">Redefinir senha</button>
+                    </div>
+                    <p class="aligncenter margintop20">
+                      Enviaremos instruções sobre como redefinir sua senha para sua caixa de entrada.
+                    </p>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <!-- end reset modal -->
+          </div>
+        </div>
+        <div class="row">
+          <div class="span4">
+            <div class="logo">
+              <a href="index.html"><img src="img/logo.png" alt="" class="logo" /></a>
+              <h1>Seja bem vindo ao nosso site</h1>
+            </div>
+          </div>
+          <div class="span8">
+            <div class="navbar navbar-static-top">
+              <div class="navigation">
+                <nav>
+                  <ul class="nav topnav">
+                    <li>
+                      <a href="index.html">INÍCIO</a>                      
+                    </li>
+                    <li>
+                      <a href="contact.html">CONTATO</a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+              <!-- end navigation -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- end header -->
+    <section id="featured">
+      <!-- start slider -->
+      <!-- Slider -->
+      <div id="nivo-slider">
+        <div class="nivo-slider">
+          <!-- Slide #1 image -->
+          <img src="img/slides/nivo/bg-1.jpg" alt="" title="#caption-1" />
+          <!-- Slide #2 image -->
+          <img src="img/slides/nivo/bg-2.jpg" alt="" title="#caption-2" />
+          <!-- Slide #3 image -->
+          <img src="img/slides/nivo/bg-3.jpg" alt="" title="#caption-3" />
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="span12">
+              <!-- Slide #1 caption -->
+              <div class="nivo-caption" id="caption-1">
+                <div>
+                   <h2>Sobre a <strong>empresa</strong></h2>
+                  <p>
+				  Entendemos que cada negócio é único, por isso oferecemos uma abordagem personalizada para atender às suas necessidades específicas. Nossos serviços abrangem desde a contabilidade básica até consultoria financeira avançada, permitindo que você se concentre no crescimento de sua empresa enquanto cuidamos de seus registros financeiros
+                  </p>
+                  <a href="#" class="btn btn-theme">Mais informações</a>
+                </div>
+              </div>
+              <!-- Slide #2 caption -->
+              <div class="nivo-caption" id="caption-2">
+                <div>
+                  <h2>Sobre a <strong>empresa</strong></h2>
+                  <p>
+				    Proporcionamos serviços personalizados para empresas. Com uma equipe experiente e comprometida, fornecemos soluções contábeis eficientes e seguras para atender às necessidades dos clientes, impulsionando o sucesso de seus negócios
+                  </p>
+                  <a href="#" class="btn btn-theme">Mais informações</a>
+                </div>
+              </div>
+              <!-- Slide #3 caption -->
+              <div class="nivo-caption" id="caption-3">
+                <div>
+                  <h2>Sobre a <strong>empresa</strong></h2>
+                  <p>
+				 Trabalhamos com comprometimento e precisão, visando sempre proporcionar tranquilidade e segurança na gestão contábil de cada negócio
+                  </p>
+                  <a href="#" class="btn btn-theme">Mais informações</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end slider -->
+    </section>
+    <section class="callaction">
+      <div class="container">
+        <div class="row">
+          <div class="span12">
+            <div class="big-cta">
+              <div class="cta-text">
+                <h3>Construindo seu Império Financeiro
+              </div>
+              <div class="cta floatright">
+                <a class="btn btn-large btn-theme btn-rounded" href="#">Solicite um orçamento</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="content">
+      <div class="container">
+        <div class="row">
+          <div class="span12">
+            <div class="row">
+              <div class="span3">
+                <div class="box aligncenter">
+                  <div class="aligncenter icon">
+                    <i class="icon-briefcase icon-circled icon-64 active"></i>
+                  </div>
+                  <div class="text">
+                    <h6>Emissão de Notas Fiscais</h6>
+                    <p>
+                      Substituição Tributária, dúvidas sobre emissão de Notas Fiscais em vários estados brasileiros.
+                    </p>
+                    <a href="#">Saiba Mais</a>
+                  </div>
+                </div>
+              </div>
+              <div class="span3">
+                <div class="box aligncenter">
+                  <div class="aligncenter icon">
+                    <i class="icon-desktop icon-circled icon-64 active"></i>
+                  </div>
+                  <div class="text">
+                    <h6>Tabelas Práticas</h6>
+                    <p>
+                      Tabelas para recolhimento em atraso, Simples Nacional, Imposto de Renda e Alíquota
+                    </p>
+                    <a href="#">Saiba Mais</a>
+                  </div>
+                </div>
+              </div>
+              <div class="span3">
+                <div class="box aligncenter">
+                  <div class="aligncenter icon">
+                    <i class="icon-beaker icon-circled icon-64 active"></i>
+                  </div>
+                  <div class="text">
+                    <h6>Impostos Atrasados</h6>
+                    <p>
+                      Faça o cálculo de impostos em atraso aqui. Veja o quanto você pagou de imposto até hoje.
+                    </p>
+                    <a href="#">Saiba Mais</a>
+                  </div>
+                </div>
+              </div>
+              <div class="span3">
+                <div class="box aligncenter">
+                  <div class="aligncenter icon">
+                    <i class="icon-coffee icon-circled icon-64 active"></i>
+                  </div>
+                  <div class="text">
+                    <h6>Cartório 24 Horas</h6>
+                    <p>
+					Facilite sua vida ou da sua empresa, solicitando certidões de todos os cartórios do Brasil.
+                    </p>
+                    <a href="#">Saiba Mais</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- divider -->
+        <div class="row">
+          <div class="span12">
+            <div class="solidline">
+            </div>
+          </div>
+        </div>
+        <!-- end divider -->
+        <!-- Portfolio Projects -->
+        <div class="row">
+          <div class="span12">
+            <h4 class="heading">Trabalhos <strong>Recentes</strong></h4>
+            <div class="row">
+              <section id="projects">
+                <ul id="thumbs" class="portfolio">
+                  <!-- Item Project and Filter Name -->
+                  <li class="item-thumbs span3 design" data-id="id-0" data-type="web">
+                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                    <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Reunião Corporativa" href="img/works/full/image-01-full.jpg">
+						<span class="overlay-img"></span>
+						<span class="overlay-img-thumb font-icon-plus"></span>
+						</a>
+                    <!-- Thumb Image and Description -->
+					                   
+ <img src="https://img.freepik.com/fotos-gratis/pessoas-em-reuniao-de-negocios-em-alto-angulo_23-2148911819.jpg" alt="Pessoal em reunião">
+
+                  </li>
+                  <!-- End Item Project -->
+                  <!-- Item Project and Filter Name -->
+                  <li class="item-thumbs span3 design" data-id="id-1" data-type="icon">
+                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                    <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Reunião Corporativa" href="img/works/full/image-02-full.jpg">
+						<span class="overlay-img"></span>
+						<span class="overlay-img-thumb font-icon-plus"></span>
+						</a>
+                    <!-- Thumb Image and Description -->
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdn_tBC7TflpKVYDMO4UB8skzX-SqTWG3Ngw35JOqM7bGMBs_L0yiuvEBKe35ymlr3lmY&usqp=CAU" alt="Pessoal em reunião">
+                  </li>
+                  <!-- End Item Project -->
+                  <!-- Item Project and Filter Name -->
+                  <li class="item-thumbs span3 photography" data-id="id-2" data-type="illustrator">
+                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                    <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Reunião Corporativa" href="img/works/full/image-03-full.jpg">
+						<span class="overlay-img"></span>
+						<span class="overlay-img-thumb font-icon-plus"></span>
+						</a>
+                    <!-- Thumb Image and Description -->
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVI8--jBhlZhpnpCLWfSzTIuarIvsAxm4viXOBdggDs4jGbQ8uijxMG1eaXBF8_MJ0B6k&usqp=CAU//Z" alt="Pessoal em reunião">
+                  </li>
+                  <!-- End Item Project -->
+                  <!-- Item Project and Filter Name -->
+                  <li class="item-thumbs span3 photography" data-id="id-2" data-type="illustrator">
+                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                    <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Reunião Corporativa" href="img/works/full/image-04-full.jpg">
+						<span class="overlay-img"></span>
+						<span class="overlay-img-thumb font-icon-plus"></span>
+						</a>
+                    <!-- Thumb Image and Description -->
+                    <img src="https://img.freepik.com/fotos-premium/trabalhando-em-um-plano-mestre-foto-recortada-de-um-grupo-de-colegas-de-negocios-corporativos-tendo-uma-reuniao-ao-redor-da-mesa-na-sala-de-reunioes_590464-54342.jpg?w=2000" alt="Pessoal em reunião">
+                  </li>
+                  <!-- End Item Project -->
+                  <!-- Item Project and Filter Name -->
+                  <li class="item-thumbs span3 photography" data-id="id-4" data-type="web">
+                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                    <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Reunião Corporativa" href="img/works/full/image-05-full.jpg">
+						<span class="overlay-img"></span>
+						<span class="overlay-img-thumb font-icon-plus"></span>
+						</a>
+                    <!-- Thumb Image and Description -->
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4_-65V6SrzvVxps5VlxMJGInkD0b_O2iqrQ&usqp=CAU" alt="Pessoal em reunião">
+                  </li>
+                  <!-- End Item Project -->
+                  <!-- Item Project and Filter Name -->
+                  <li class="item-thumbs span3 photography" data-id="id-5" data-type="icon">
+                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                    <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Reunião Corporativa" href="img/works/full/image-06-full.jpg">
+						<span class="overlay-img"></span>
+						<span class="overlay-img-thumb font-icon-plus"></span>
+						</a>
+                    <!-- Thumb Image and Description -->
+                    <img src="https://img.freepik.com/fotos-gratis/grupo-de-empresarios-de-pe-no-escritorio-olhando-para-laptop-no-escritorio_23-2147857328.jpg?w=360" alt="Pessoal em reunião">
+                  </li>
+                  <!-- End Item Project -->
+                  <!-- Item Project and Filter Name -->
+                  <li class="item-thumbs span3 photography" data-id="id-2" data-type="illustrator">
+                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                    <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Reunião Corporativa" href="img/works/full/image-07-full.jpg">
+						<span class="overlay-img"></span>
+						<span class="overlay-img-thumb font-icon-plus"></span>
+						</a>
+                    <!-- Thumb Image and Description -->
+                    <img src="https://img.freepik.com/fotos-premium/equipe-de-negocios-corporativos-e-gerente-em-reuniao_928131-1790.jpg?w=2000" alt="Pessoal em reunião">
+                  </li>
+                  <!-- End Item Project -->
+                  <!-- Item Project and Filter Name -->
+                  <li class="item-thumbs span3 design" data-id="id-0" data-type="web">
+                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                    <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Reunião Corporativa" href="img/works/full/image-08-full.jpg">
+						<span class="overlay-img"></span>
+						<span class="overlay-img-thumb font-icon-plus"></span>
+						</a>
+                    <!-- Thumb Image and Description -->
+                    <img src="https://img.freepik.com/fotos-premium/aperto-de-mao-de-negocios-na-reuniao-corporativa-do-escritorio-conclusao-do-contrato-e-conceito-de-acordo-bem-sucedido-homem-de-negocios-alegre-e-maos-de-mulher-de-negocios-se-encontram-copie-o-espaco_116547-8419.jpg?w=2000" alt="Pessoal em reunião">
+                  </li>
+                  <!-- End Item Project -->
+                </ul>
+              </section>
+            </div>
+          </div>
+        </div>
+        <!-- End Portfolio Projects -->
+        <!-- divider -->
+        <div class="row">
+          <div class="span12">
+            <div class="solidline">
+            </div>
+          </div>
+        </div>
+        <!-- end divider -->
+        <div class="row">
+          <div class="span12">
+            <h4>Clientes muitos <strong>satisfeitos</strong></h4>
+            <ul id="mycarousel" class="jcarousel-skin-tango recent-jcarousel clients">
+              <li>
+                <a href="#">
+					<img src="img/dummies/clients/client1.png" class="client-logo" alt="" />
+					</a>
+              </li>
+              <li>
+                <a href="#">
+					<img src="img/dummies/clients/client2.png" class="client-logo" alt="" />
+					</a>
+              </li>
+              <li>
+                <a href="#">
+					<img src="img/dummies/clients/client3.png" class="client-logo" alt="" />
+					</a>
+              </li>
+              <li>
+                <a href="#">
+					<img src="img/dummies/clients/client4.png" class="client-logo" alt="" />
+					</a>
+              </li>
+              <li>
+                <a href="#">
+					<img src="img/dummies/clients/client5.png" class="client-logo" alt="" />
+					</a>
+              </li>
+              <li>
+                <a href="#">
+					<img src="img/dummies/clients/client6.png" class="client-logo" alt="" />
+					</a>
+              </li>
+              <li>
+                <a href="#">
+					<img src="img/dummies/clients/client1.png" class="client-logo" alt="" />
+					</a>
+              </li>
+              <li>
+                <a href="#">
+					<img src="img/dummies/clients/client2.png" class="client-logo" alt="" />
+					</a>
+              </li>
+              <li>
+                <a href="#">
+					<img src="img/dummies/clients/client3.png" class="client-logo" alt="" />
+					</a>
+              </li>
+              <li>
+                <a href="#">
+					<img src="img/dummies/clients/client4.png" class="client-logo" alt="" />
+					</a>
+              </li>
+              <li>
+                <a href="#">
+					<img src="img/dummies/clients/client5.png" class="client-logo" alt="" />
+					</a>
+              </li>
+              <li>
+                <a href="#">
+					<img src="img/dummies/clients/client6.png" class="client-logo" alt="" />
+					</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="bottom">
+      <div class="container">
+        <div class="row">
+          <div class="span12">
+            <div class="aligncenter">
+              <div id="twitter-wrapper">
+                <div id="twitter">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="span3">
+            <div class="widget">
+              <h5 class="widgetheading">Navegar por páginas</h5>
+              <ul class="link-list">
+                <li><a 
+                <li><a
+                <li><a 
+                <li><a 
+                <li><a 
+              </ul>
+            </div>
+          </div>
+          <div class="span3">
+            <div class="widget">
+              <h5 class="widgetheading">Coisas importantes</h5>
+              <ul class="link-list">
+                <li><a
+                <li><a
+                <li><a 
+                <li><a 
+                <li>
+              </ul>
+            </div>
+          </div>
+          <div class="span3">
+            <div class="widget">
+              <h5 class="widgetheading">Flickr photostream</h5>
+              <div class="flickr_badge">
+                <script type="text/javascript" src="http://www.flickr.com/badge_code_v2.gne?count=8&amp;display=random&amp;size=s&amp;layout=x&amp;source=user&amp;user=34178660@N03"></script>
+              </div>
+              <div class="clear">
+              </div>
+            </div>
+          </div>
+          <div class="span3">
+            <div class="widget">
+              <h5 class="widgetheading">Entre em contato conosco</h5>
+              <address>
+								<strong>contabilidade, Pte Ltd</strong><br>
+								 Empresarial center 264, Maurício de Nassaul<br>
+								 Pernambuco, Caruaru
+					 		</address>
+              <p>
+                <i class="icon-phone"></i> (81) 4569-7890 - (81) 5558-7891 <br>
+                <i class="icon-envelope-alt"></i> email@teste.com
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="sub-footer">
+        <div class="container">
+          <div class="row">
+            <div class="span6">
+              <div class="copyright">
+                <p>
+                  <span>&copy; Contabilidade - Direitos reservados.</span>
+                </p>
+                <div class="credits">
+                  <!--
+                    All the links in the footer should remain intact.
+                    You can delete the links only if you purchased the pro version.
+                    Licensing information: https://bootstrapmade.com/license/
+                    Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Flattern
+                  -->
+                  Designed by <a href="https://technochem.com.br/">TechnoChem</a>
+                </div>
+              </div>
+            </div>
+            <div class="span6">
+              <ul class="social-network">
+                <li><a href="#" data-placement="bottom" title="Facebook"><i class="icon-facebook icon-square"></i></a></li>
+                <li><a href="#" data-placement="bottom" title="Twitter"><i class="icon-twitter icon-square"></i></a></li>
+                <li><a href="#" data-placement="bottom" title="Linkedin"><i class="icon-linkedin icon-square"></i></a></li>
+                <li><a href="#" data-placement="bottom" title="Pinterest"><i class="icon-pinterest icon-square"></i></a></li>
+                <li><a href="#" data-placement="bottom" title="Google plus"><i class="icon-google-plus icon-square"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <a href="#" class="scrollup"><i class="icon-chevron-up icon-square icon-32 active"></i></a>
+  <!-- javascript
+    ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="js/jquery.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/jcarousel/jquery.jcarousel.min.js"></script>
+  <script src="js/jquery.fancybox.pack.js"></script>
+  <script src="js/jquery.fancybox-media.js"></script>
+  <script src="js/google-code-prettify/prettify.js"></script>
+  <script src="js/portfolio/jquery.quicksand.js"></script>
+  <script src="js/portfolio/setting.js"></script>
+  <script src="js/jquery.flexslider.js"></script>
+  <script src="js/jquery.nivo.slider.js"></script>
+  <script src="js/modernizr.custom.js"></script>
+  <script src="js/jquery.ba-cond.min.js"></script>
+  <script src="js/jquery.slitslider.js"></script>
+  <script src="js/animate.js"></script>
+
+  <!-- Template Custom JavaScript File -->
+  <script src="js/custom.js"></script>
+
+</body>
+</html>
